@@ -36,7 +36,6 @@ app.configure('production', function(){
 
 // Routes
 app.get('/', routes.index);
-app.get('/list', routes.list);
 
 app.listen(3000, function(){
   console.log("express-bootstrap app running on port 3000");

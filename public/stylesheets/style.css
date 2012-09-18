@@ -3,11 +3,18 @@ html,body{
 }
 
 td.listen {
-  background-color: green !important;
+  /*background-color: green !important;*/
 }
 
 table td.etablished {
 
+}
+
+#logo{
+  float: left;
+  height: 42px;
+  width: 42px;
+  padding-top: 2px;
 }
 
 .container[role = "main"] {
